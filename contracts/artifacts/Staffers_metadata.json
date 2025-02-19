@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_id",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_jobTitle",
+						"type": "string"
+					}
+				],
+				"name": "addStaff",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "staffList",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "staffID",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "jobTitle",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Staffers.sol": "Staffers"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Staffers.sol": {
+			"keccak256": "0xd16a2fddc249f1d5edfcebb3bbed14ab98cd7f654a598431e34e7d8fb721b197",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d9671e037db880397f29ff2eeb18b10e6a33905a419f4398924a9b6a50483e5f",
+				"dweb:/ipfs/QmRuPhX85xSVxPrnFchUxomZDUoRxCpdRvwnaMESHxTQC1"
+			]
+		},
+		"contracts/StructDeclaration.sol": {
+			"keccak256": "0xade89941cdfa7dddd136a1a4f4c81fd77bfe77e6a11dbaa70edf2b785c1faeee",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc4db77ff8db97d37e3ae7f3172f1ec7ef8beee9bb799cfca2d0bc9c2db9e646",
+				"dweb:/ipfs/QmZwJgf4TvDHpkDFpFoGsnH5bDox5MQ2D4sNFm33rmNWSf"
+			]
+		}
+	},
+	"version": 1
+}
