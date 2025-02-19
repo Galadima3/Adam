@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStatus",
+				"outputs": [
+					{
+						"internalType": "enum MaritalStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maritalStatus",
+				"outputs": [
+					{
+						"internalType": "enum MaritalStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum MaritalStatus",
+						"name": "_mstatus",
+						"type": "uint8"
+					}
+				],
+				"name": "setStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/charlie.sol": "Charlie"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EnumDeclaration.sol": {
+			"keccak256": "0xc6d0320e62f114f86f1a481a47605c5fa98adb235cdc41885eb19fa2aec76951",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9f780780ecc33bf62778c095de112a393eaf0cd13d4733002780b008d0351d92",
+				"dweb:/ipfs/QmSHfjoR7fuPhjJbsW6nMBQRqrFJ7yaR5RhGW5PcK78y3M"
+			]
+		},
+		"contracts/charlie.sol": {
+			"keccak256": "0x5a7d0ee5062b9cfa8ab9e34eb00395afc05164ac22b0fd6d8c4a6a4010f55e00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://caa159816a89ba20362484a7c1cea699c8a9e8dd94c555e5cbcceeaf582367af",
+				"dweb:/ipfs/QmXQps8SVqgsJLm8FCudkBJJmWoHdzyyQAjs2LSYb15tEf"
+			]
+		}
+	},
+	"version": 1
+}
