@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "withdrawAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "InsufficientBalance",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_withdrawal",
+						"type": "uint256"
+					}
+				],
+				"name": "customError",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "input",
+						"type": "uint256"
+					}
+				],
+				"name": "req",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "verdict",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "revInput",
+						"type": "uint256"
+					}
+				],
+				"name": "rev",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "userBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/delta.sol": "Delta"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/delta.sol": {
+			"keccak256": "0xf29e649999034e80836d96b7d849076956d1c0227a943ea93af605f5cbc0aa6e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4859a42892cc183f19f79803b4c92dd6e0c6dbe3d857d454343e0e7fccd9a22a",
+				"dweb:/ipfs/Qmd1jcM2KbyAcrKPUooNoxYWR6ayunadAtJZgaA3edwNMh"
+			]
+		}
+	},
+	"version": 1
+}
