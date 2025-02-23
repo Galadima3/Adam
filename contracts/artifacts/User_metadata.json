@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_extAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "bank",
+				"outputs": [
+					{
+						"internalType": "contract IBank",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkBankBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "depositToBank",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawFromBank",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/User.sol": "User"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/User.sol": {
+			"keccak256": "0x19369f1047f865e28987c0f48fbee9b888b98e424bb0d7a8de4ce8b6d0be21e0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://771086185f686d6c847e8afb19c2aa381c1e7d26183c3a51b0c1ad6c1c4600f2",
+				"dweb:/ipfs/QmPnDNQKQDFn9akqgQ8YmaCmqoQn9XFLo3WLyN6yeamWAM"
+			]
+		},
+		"contracts/interfaces/IBank.sol": {
+			"keccak256": "0x2f222cf42b960af6d69cf715bb526e03e03a4498c0b9fd63370b20d4ecc60b3d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://28e43ebf017a1ecd4ee1857b8d0a90bcfba69f6207a826180289c3e6cad4d5fa",
+				"dweb:/ipfs/QmXDJ3tiGGiqpxM1aXeAAjEMs5C5ajD5B4G1TLW3hZPNBz"
+			]
+		}
+	},
+	"version": 1
+}
