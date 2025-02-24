@@ -91,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/User.sol": {
-			"keccak256": "0x19369f1047f865e28987c0f48fbee9b888b98e424bb0d7a8de4ce8b6d0be21e0",
+			"keccak256": "0x8a9d9c956b108246d5616d0d97c6671cc609feeeb942c1517a1bd9b16314d915",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://771086185f686d6c847e8afb19c2aa381c1e7d26183c3a51b0c1ad6c1c4600f2",
-				"dweb:/ipfs/QmPnDNQKQDFn9akqgQ8YmaCmqoQn9XFLo3WLyN6yeamWAM"
+				"bzz-raw://1a81592d1ab35e939dde93f6889834745849694440f2349a1fc6551f88c25782",
+				"dweb:/ipfs/QmYg4Rv975tpYzuWTMn8bchhzPN2YNjBQG8FWRXTFdZiSa"
 			]
 		},
 		"contracts/interfaces/IBank.sol": {

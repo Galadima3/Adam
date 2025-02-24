@@ -22,4 +22,8 @@ contract Bank is ReentrancyGuard {
         (bool success, ) = payable(msg.sender).call{value: amount}("");
         require(success, "Transfer failed");
     }
+
+    function getBalance(address user) external view returns (uint256) {
+        return balances[user];
+    }
 }

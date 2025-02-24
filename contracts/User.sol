@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
-import "contracts/interfaces/IBank.sol";
+import "./interfaces/IBank.sol";
+
 
 contract User {
     IBank public bank;

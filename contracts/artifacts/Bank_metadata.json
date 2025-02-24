@@ -34,6 +34,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "amount",
 						"type": "uint256"
@@ -81,11 +100,11 @@
 			]
 		},
 		"contracts/Bank.sol": {
-			"keccak256": "0x8706746559edd1a8b13e065b1426aebe123a5d862370038b62a7f34d9a4e33ae",
+			"keccak256": "0xf54d74cfa49fad677ffe2b0006011c267e01903a51145d7ef57d293ffa1e8f41",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bd40ac52f1af79224bffc1e30fd7a7d9fefa82c2e8f1214fdc42d1a5f1d3c8e7",
-				"dweb:/ipfs/QmNh1fXWm6zimf7inq1EQoVoroxxiKqxDUjYKPgwV5KSph"
+				"bzz-raw://fc747a155459eedca93c50ac4a5da24a271059916a9ee9bb704d65d3133784af",
+				"dweb:/ipfs/QmeEEgRASnqbf4xZwFMdDbFchR7RtxF3268DjwWJwoCAyN"
 			]
 		}
 	},

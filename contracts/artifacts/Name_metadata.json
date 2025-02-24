@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Juliet.sol": "Name"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Juliet.sol": {
+			"keccak256": "0x7cb81678c9abe25bb945a8d7c3f1891beb0bfa8f2067fd808fe65a59345c4b9f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://376c7f3f1ad4ff9f174ed9c84355d08152f7d38f0d270c10eecb539b0ce95b8d",
+				"dweb:/ipfs/QmavFi9G61XRipf3WgUiYp2C6tViSfTkiJAb5qGRaQj8UX"
+			]
+		}
+	},
+	"version": 1
+}
