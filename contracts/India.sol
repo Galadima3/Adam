@@ -10,7 +10,7 @@ contract SinzuMoney {
         return address(this).balance;
     }
 
-    //Sending either
+    //Sending ether
     function send(address payable receiver, uint256 amount) public  payable {
         (bool sent, ) = receiver.call{value: amount}("");
         require(sent, "Failed Txn");

@@ -73,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/India.sol": {
-			"keccak256": "0xc9f33ca5158e208e4cdd6f7fb8f00573726858f7fb62d6a024670702b9359703",
+			"keccak256": "0x4fb45d917df53d2f6fd717069f632a3986f0aef25b1b90467712370ab69228a8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://04664cdffd25e1298e42926c0c1a0f606fa8eb780ae3fd3b26a29aee4bdd5104",
-				"dweb:/ipfs/QmNddMkNaZgQKcx8zujUsiPNVyGdh3DCtvzip2x4vtnLYC"
+				"bzz-raw://a6a78ffa9a0952a3ce19e9daa3124406e167f86b1ee8be6b796d2883a4661194",
+				"dweb:/ipfs/QmUHwZvQKVLCt5zixy27iBeKW3yHPrG3dsAxUN16XaefBk"
 			]
 		}
 	},
