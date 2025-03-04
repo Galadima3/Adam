@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Oscar.sol": "Oscar"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Oscar.sol": {
+			"keccak256": "0xd631e02f66fb3ebf408922108a98760229edeb052e5ea128df666541f85f0ddc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1799e2b1df3b23ca1d7258e1b7eff7fc8a5d09d34d27befa5cbb193fbb247596",
+				"dweb:/ipfs/QmYDiV9ab2VVxMb7mriFtnqrHhewDiAZJZPK5xdKLNQ7Ek"
+			]
+		}
+	},
+	"version": 1
+}

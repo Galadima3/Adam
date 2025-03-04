@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/November.sol": "November"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/November.sol": {
+			"keccak256": "0x35df1b40099e4f51550fdb9b8ed51a6de9013a6e047bc191f90de2fb640cf488",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12b4f39328a2d93f184f3e7b8ff58408cc7d2dcb4d3d1a211aa3bfb230c164ea",
+				"dweb:/ipfs/QmUPj2UKExXAuKPSm8j9gMR73aUtgJpRrKYk47NgSAh6Xb"
+			]
+		}
+	},
+	"version": 1
+}
